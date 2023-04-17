@@ -6,8 +6,10 @@ import Contact from './Contact';
 
 function App() {
   return (
+    
     <div className="App">
       <header>
+        
         <ul>
           <li>
             <a href="web.html">Home</a>
@@ -22,6 +24,24 @@ function App() {
         </ul>
         <h1>McKee Thatcher</h1>
       </header>
+      <h1>Projects</h1>
+    <ul>
+      <li>
+        <a href="https://underground-artist-front.herokuapp.com" class="project-link">Underground Artist Finder</a>
+        <p>Are you tired of hearing the same old mainstream songs on Spotify? Look no further than the Underground Artist Finder app! This app uses advanced algorithms to help you discover new and exciting underground artists from all around the world. With a simple search function, you can easily find artists that match your preferred music genres and start listening to their music right away. The app also features a rating system, allowing you to rate and recommend your favorite underground artists to others. With the Underground Artist Finder, you can broaden your music horizons and discover hidden gems in the world of music.</p>
+      </li>
+      <li>
+        <a href="https://stargazer-front420.onrender.com/" class="project-link">Stargazer</a>
+       
+		<p>The stargazer app is an all-in-one tool designed to provide users with a comprehensive data and feature set for an optimal stargazing experience. The app includes a weather tracker that keeps users informed about current and upcoming conditions in their area, ensuring that they have clear skies for their stargazing sessions. Additionally, the app provides real-time solar activity data, helping users identify the best times to view various celestial events. To help users navigate the night sky, the app includes interactive star charts that provide detailed information about stars, planets, and other celestial objects visible at any given time. The charts can be customized based on the user's location and time of day, making it easy to identify and track specific objects in the sky. Moreover, the app includes a social component, allowing users to share photos they've taken with their devices and post them to the app's community forum. Users can add location data to their photos, allowing other users to see where they were taken and discover new stargazing spots in their area. Overall, the star-gazing app is a must-have tool for anyone interested in astronomy or looking to enhance their stargazing experience, providing them with all the information and features they could possibly need in one convenient app.</p>
+	</li>
+
+      <li>
+        <a href="https://climate-change-frontend.onrender.com/" class="project-link">Cli-Mate Change</a>
+		<p>This app uses real-time weather data to provide a three-day forecast for any location, and based on that information, it suggests what clothing and accessories you should pack for your trip. By taking the guesswork out of packing, it helps you be prepared for any weather conditions you may encounter on your journey.</p>
+      </li>
+    </ul>
+  
 
       <p className="welcome">
         Check out the projects tab to see what McKee is working on!
